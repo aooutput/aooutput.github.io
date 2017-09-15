@@ -1,6 +1,7 @@
 ## Collection of Machine Learning Data Projects
 
 ### MNIST Digit Recognizer - comparing computation time & scores of Python scikit-learn algorithms
+- [Link to main digits page](digits)
 - naive bayes
 - decision trees
 - random forest
