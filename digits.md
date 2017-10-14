@@ -2,8 +2,8 @@
 
 
 testing code snippets.
-```
+```python
 function test() {
-  console.log("notice the blank line before this function?");
+  print(123)
 }
 ```
