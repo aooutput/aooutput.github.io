@@ -3,7 +3,7 @@
 To compare the different sci-kit learn algorithms, I tested digit recognition with this kaggle dataset of images of handwritten 0 to 9’s:
 https://www.kaggle.com/c/digit-recognizer
 
-**Python toolkit (scikit-learn) and functions used for the machine learning analysis:
+**Python toolkit (scikit-learn) and functions used for the machine learning analysis**:
 ```python
 import pandas as pd
 import copy
@@ -14,7 +14,7 @@ from sklearn import svm
 from sklearn.naive_bayes import GaussianNB
 from sklearn import tree
 ```
-In addition to the kaggle data, I drew my own sample digits to analyze**:
+**In addition to the kaggle data, I drew my own sample digits to analyze**:
 
 ![Image](aonum3.jpg)
 
