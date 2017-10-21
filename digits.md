@@ -1,7 +1,7 @@
 ## MNIST digit analysis with multiple machine learning toolkits 
 
 To compare the different sci-kit learn algorithms, I tested digit recognition with this kaggle dataset of images of handwritten 0 to 9’s:
-https://www.kaggle.com/c/digit-recognizer
+<a href="https://www.kaggle.com/c/digit-recognizer" target="_blank">https://www.kaggle.com/c/digit-recognizer</a>
 
 <h3><b>Python toolkit (scikit-learn) and functions used for the machine learning analysis</b>:</h3>
 ```python
