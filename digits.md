@@ -3,7 +3,7 @@
 To compare the different sci-kit learn algorithms, I tested digit recognition with this kaggle dataset of images of handwritten 0 to 9’s:
 https://www.kaggle.com/c/digit-recognizer
 
-**Python toolkit (scikit-learn) and functions used for the machine learning analysis**:
+<h3>**Python toolkit (scikit-learn) and functions used for the machine learning analysis**:</h3>
 ```python
 import pandas as pd
 import copy
@@ -97,9 +97,16 @@ print(resultsAO)
 - 4000 images & the naïve bayes model predicts that my actual drawings of 0 to 9 are [0 1 3 2 4 6 3 9 8 9]. 
 
 <h3>Analyzing the digit data with Matlab's neural network tools</h3>
-example
-example
+The Matlab code I used is not shown here since there are several lines of code but it was based on the documentation for the Neural Network Toolbox. Using the kaggle data again, the scores were:
+- 100 images -> score = 0.25
+- 1000 images -> score = 0.89
+- 4000 images -> score = 0.91
 
-####test the hashtags
-example
+Matlab has a great table output to see which digits are more accurately predicted than others. For the 4000 images case, 1 & 7 were correctly labeled the most, while 9 was the least accurate due to confusion with several digits - especially 3.
+
+![Image](matlab-4000-confusionmatrix.jpg)
+
+Overall, the built-in toolboxes predicted the digits fairly well with little to no preprocessing or parameter testing in this digit study.
+
+
 
