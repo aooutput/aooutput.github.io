@@ -3,7 +3,7 @@
 To compare the different sci-kit learn algorithms, I tested digit recognition with this kaggle dataset of images of handwritten 0 to 9’s:
 https://www.kaggle.com/c/digit-recognizer
 
-<h3>**Python toolkit (scikit-learn) and functions used for the machine learning analysis**:</h3>
+<h3><b>Python toolkit (scikit-learn) and functions used for the machine learning analysis</b>:</h3>
 ```python
 import pandas as pd
 import copy
