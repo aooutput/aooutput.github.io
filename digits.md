@@ -3,7 +3,7 @@
 To compare the different sci-kit learn algorithms, I tested digit recognition with this kaggle dataset of images of handwritten 0 to 9’s:
 https://www.kaggle.com/c/digit-recognizer
 
-Python toolkit (scikit-learn) and functions used for the machine learning analysis:
+**Python toolkit (scikit-learn) and functions used for the machine learning analysis:
 ```python
 import pandas as pd
 import copy
@@ -14,7 +14,7 @@ from sklearn import svm
 from sklearn.naive_bayes import GaussianNB
 from sklearn import tree
 ```
-In addition to the kaggle data, I drew my own sample digits to analyze:
+In addition to the kaggle data, I drew my own sample digits to analyze**:
 
 ![Image](aonum3.jpg)
 
@@ -50,7 +50,7 @@ train_images_b=train_images
 test_images_b[test_images_b>1]=1
 train_images_b[train_images_b>1]=1
 ```
-Testing with naïve bayes (scores will change slightly each time due to the random sorting above):
+**Testing with naïve bayes (scores will change slightly each time due to the random sorting above)**:
 ```python
 clfg = GaussianNB()
 clfg.fit(train_images_b, train_labels.values.ravel())
@@ -60,7 +60,7 @@ clfg.score(test_images_b,test_labels)
 - 1000 images -> score = 0.62
 - 4000 images -> score = 0.54
 
-Testing with decision trees:
+**Testing with decision trees**:
 ```python
 clfdt=tree.DecisionTreeClassifier()
 clfdt.fit(train_images_b, train_labels.values.ravel())
@@ -70,7 +70,7 @@ clfdt.score(test_images_b,test_labels)
 - 1000 images -> score = 0.63
 - 4000 images -> score = 0.79
 
-Testing with support vector classification (highest score):
+**Testing with support vector classification (highest score)**:
 ```python
 clf = svm.SVC()
 clf.fit(train_images_b, train_labels.values.ravel())
@@ -80,7 +80,7 @@ print(clf.score(test_images_b,test_labels))
 - 1000 images -> score = 0.89
 - 4000 images -> score = 0.91
 
-Clearly training with more images leads to greater accuracy. For curiosity’s sake, the algorithms were also tested on my handwriting using the above trained models:
+**Clearly training with more images leads to greater accuracy. For curiosity’s sake, the algorithms were also tested on my handwriting using the above trained models**:
 ```python
 im3=copy.copy(im2)
 im3[im3<100]=0
