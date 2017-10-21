@@ -70,7 +70,7 @@ clfdt.score(test_images_b,test_labels)
 - 1000 images -> score = 0.63
 - 4000 images -> score = 0.79
 
-Testing with support vector classification:
+Testing with support vector classification (highest score):
 ```python
 clf = svm.SVC()
 clf.fit(train_images_b, train_labels.values.ravel())
@@ -80,7 +80,7 @@ print(clf.score(test_images_b,test_labels))
 - 1000 images -> score = 0.89
 - 4000 images -> score = 0.91
 
-Clearly training with more images leads to greater accuracy. For curiosity’s sake, the algorithms were also tested on my handwriting using the above trained model:
+Clearly training with more images leads to greater accuracy. For curiosity’s sake, the algorithms were also tested on my handwriting using the above trained models:
 ```python
 im3=copy.copy(im2)
 im3[im3<100]=0
