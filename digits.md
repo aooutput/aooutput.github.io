@@ -96,3 +96,10 @@ print(resultsAO)
 - 4000 images: 1, .5, & .7 for the SVM, naïve bayes, and decision tree models respectively
 - 4000 images & the naïve bayes model predicts that my actual drawings of 0 to 9 are [0 1 3 2 4 6 3 9 8 9]. 
 
+<h3>Analyzing the digit data with Matlab's neural network tools</h3>
+example
+example
+
+####test the hashtags
+example
+
